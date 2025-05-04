@@ -1,0 +1,10 @@
+header {
+    display: grid;
+    justify-items: center;
+    gap: 0.5rem;
+}
+
+h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}

@@ -1,0 +1,3 @@
+interface ITabs {
+	isActive: boolean
+}

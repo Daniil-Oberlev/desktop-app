@@ -1,0 +1,22 @@
+.header__nav {
+    border: 4px solid #F4F4F5;
+}
+
+.header__nav--list {
+    display: flex;
+}
+
+.item--button {
+    padding: 8px 24px;
+    background: #F4F4F5;
+    border: none;
+    cursor: pointer;
+}
+
+.item--button.active {
+    background-color: #fff;
+}
+
+.tab-content {
+    padding: 20px 0;
+}

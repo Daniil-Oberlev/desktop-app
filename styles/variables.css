@@ -1,0 +1,11 @@
+:root {
+    --background: #F9FAFB;
+    --foreground: #FFF;
+    --main-font: "Geist", sans-serif;
+    --title-font-size: 1.5rem;
+    --main-font-size: 0.875rem;
+    --text-bold: 600;
+    --text-font-weight: 400;
+    --text-accent-color: #9FA0A5;
+    --radius: 0.5rem;
+}

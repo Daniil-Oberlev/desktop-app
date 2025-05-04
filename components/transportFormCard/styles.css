@@ -1,0 +1,63 @@
+.card {
+    display: grid;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: var(--radius);
+    background-color: var(--foreground);
+}
+
+.card__title {
+    font-size: var(--title-font-size);
+}
+
+.card__description {
+    color: var(--text-accent-color);
+    font-size: var(--main-font-size)
+}
+
+.card__item {
+    display: grid;
+    margin-top: 1.5rem;
+}
+
+.card__item--add {
+    display: flex;
+    justify-content: space-between
+}
+
+.card__item--add-button {
+    background: transparent;
+    border-radius: var(--radius);
+
+}
+
+.card label {
+    font-weight: var(--text-bold);
+    font-size: var(--main-font-size);
+}
+
+.card input {
+    padding: 0.5rem 0.75rem;
+    margin-top: 0.5rem;
+    font-size: var(--main-font-size);
+    line-height: 1.25rem;
+    border-radius: var(--radius);
+    border: 1px solid black;
+}
+
+.card__item--double-input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.card__item--double-input-item {
+    display: grid;
+}
+
+.card__item p {
+    font-size: var(--main-font-size);
+    color: var(--text-accent-color);
+    margin-top: 0.5rem;
+}

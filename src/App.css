@@ -1,0 +1,16 @@
+body {
+    padding: 2rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    background-color: var(--background);
+}
+
+button {
+    padding: 0.5rem;
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    border: 1px solid var(--text-accent-color);
+}
