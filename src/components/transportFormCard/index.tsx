@@ -35,14 +35,21 @@ export const TransportFormCard = () => {
         </div>
 
         <div className='card__item card__item--double-input'>
-          <div className='card__item--double-input-item'>
-            <label>Объем груза (м³)</label>
-            <input
-              type='number'
-              step='0.1'
-              required
-              placeholder='10.5'
-            />
+          <div>
+            <label>Объем груза</label>
+            <div className='card__item--double-input-item card__item--input-select'>
+              <input
+                type='number'
+                step='0.1'
+                required
+                placeholder='10.5'
+              />
+              <select>
+                <option value='cubic'>м³</option>
+                <option value='kg'>кг</option>
+                <option value='pieces'>шт</option>
+              </select>
+            </div>
           </div>
           <div className='card__item--double-input-item'>
             <label>Расстояние (км)</label>

@@ -37,7 +37,6 @@
 
 .card input {
   padding: 0.5rem 0.75rem;
-  margin-top: 0.5rem;
   font-size: var(--main-font-size);
   line-height: 1.25rem;
   border-radius: var(--radius);
@@ -59,4 +58,10 @@
   font-size: var(--main-font-size);
   color: var(--text-accent-color);
   margin-top: 0.5rem;
+}
+
+.card__item--input-select {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  gap: 0.5rem;
 }
