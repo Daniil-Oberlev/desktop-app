@@ -1,3 +1,3 @@
-interface ITabs {
-	isActive: boolean
-}
+// interface ITabs {
+//   isActive: boolean
+// }
