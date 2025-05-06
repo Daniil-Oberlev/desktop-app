@@ -1,8 +1,9 @@
 import { useState } from 'react'
 
-import { TransportFormCard } from '../transportFormCard'
+import { TransportFormCard } from '../cards/transportFormCard'
 
 import './styles.css'
+import {SettingsCards} from "../cards/settings";
 
 export const Navigation = () => {
   const [activeTab, setActiveTab] = useState('forms')
@@ -29,10 +30,10 @@ export const Navigation = () => {
           </li>
         </ul>
       </nav>
-      <div className='tab-content'>
+      <main className='tab-content'>
         {activeTab === 'forms' && <TransportFormCard />}
-        {activeTab === 'settings' && <div>Содержимое настроек</div>}
-      </div>
+        {activeTab === 'settings' && <SettingsCards/> }
+      </main>
     </>
   )
 }

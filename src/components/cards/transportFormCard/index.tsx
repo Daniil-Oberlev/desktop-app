@@ -3,8 +3,9 @@ import './styles.css'
 export const TransportFormCard = () => {
   return (
     <>
-      <form className='card'>
-        <h2 className='card__title'>Форма учета грузоперевозки</h2>
+      <form>
+        <article className='card'>
+        <h2>Форма учета грузоперевозки</h2>
         <p className='card__description'>Заполните информацию о выполненной перевозке груза</p>
         <div className='card__item'>
           <label>Фамилия и инициалы водителя</label>
@@ -61,6 +62,7 @@ export const TransportFormCard = () => {
             />
           </div>
         </div>
+        </article>
       </form>
     </>
   )

@@ -1,12 +1,12 @@
 .card {
   display: grid;
   padding: 1rem;
-  border: 1px solid black;
+  border: 1px solid var(--border-color);
   border-radius: var(--radius);
   background-color: var(--foreground);
 }
 
-.card__title {
+h2 {
   font-size: var(--title-font-size);
 }
 
@@ -35,12 +35,16 @@
   font-size: var(--main-font-size);
 }
 
-.card input {
+.card input, .card select, .card button {
   padding: 0.5rem 0.75rem;
   font-size: var(--main-font-size);
   line-height: 1.25rem;
   border-radius: var(--radius);
-  border: 1px solid black;
+  border: 1px solid var(--border-color);
+}
+
+.card select {
+  padding: 0.5rem 0.75rem 0.5rem 0.25rem;
 }
 
 .card__item--double-input {
