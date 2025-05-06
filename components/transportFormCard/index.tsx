@@ -34,14 +34,6 @@ export const TransportFormCard = () => {
           </div>
         </div>
 
-        {/*<div className='card__item'>*/}
-        {/*	<div className='card__item--add'>*/}
-        {/*		<label>Промежуточные пункты</label>*/}
-        {/*		<button className='card__item--add-button' type="button">+ Добавить пункт</button>*/}
-        {/*	</div>*/}
-        {/*	<p>Нет промежуточных пунктов. Добавьте их, если необходимо.</p>*/}
-        {/*</div>*/}
-
         <div className='card__item card__item--double-input'>
           <div className='card__item--double-input-item'>
             <label>Объем груза (м³)</label>

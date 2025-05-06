@@ -1,7 +1,8 @@
 import { useState } from 'react'
 
-import './styles.css'
 import { TransportFormCard } from '../transportFormCard'
+
+import './styles.css'
 
 export const Navigation = () => {
   const [activeTab, setActiveTab] = useState('forms')
@@ -20,14 +21,6 @@ export const Navigation = () => {
           </li>
           <li className='header__nav--list--item'>
             <button
-              className={`item--button ${activeTab === 'drafts' ? 'active' : ''}`}
-              onClick={() => setActiveTab('drafts')}
-            >
-              Черновики
-            </button>
-          </li>
-          <li className='header__nav--list--item'>
-            <button
               className={`item--button ${activeTab === 'settings' ? 'active' : ''}`}
               onClick={() => setActiveTab('settings')}
             >
@@ -37,7 +30,6 @@ export const Navigation = () => {
         </ul>
       </nav>
       <div className='tab-content'>
-        {activeTab === 'drafts' && <div>Содержимое черновиков</div>}
         {activeTab === 'forms' && <TransportFormCard />}
         {activeTab === 'settings' && <div>Содержимое настроек</div>}
       </div>
